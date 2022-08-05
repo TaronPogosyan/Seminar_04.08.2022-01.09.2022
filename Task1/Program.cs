@@ -9,4 +9,15 @@
 // название дня недели по заданному номеру.
 // 3 -> Среда
 // 5 -> Пятница
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Введите первое число: ");
+int num1 = Convert.ToInt32(Console.ReadLine()); 
+Console.WriteLine("Введите второе число: ");
+int num2 = Convert.ToInt32(Console.ReadLine()); 
+if(num2 * num2 == num1) 
+{
+  Console.WriteLine($"Первое число {num1} является квадратом второго числа {num2}");  
+}
+else
+{
+  Console.WriteLine($"Первое число {num1} Не является квадратом второго числа {num2}");  
+}
