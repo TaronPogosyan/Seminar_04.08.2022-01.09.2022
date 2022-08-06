@@ -4,4 +4,8 @@
 // 456 -> 6
 // 782 -> 2
 // 918 -> 8
-Console.WriteLine("Hello, World!");
+Console.Write("Напишите трехзначное число: ");
+int num = Convert.ToInt32(Console.ReadLine()); 
+int num2 = num % 10;
+Console.WriteLine($"Показывает последнюю цифру: {num2}");
+ 
